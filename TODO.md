@@ -1,0 +1,2 @@
+Available methods:
+- $Date.diffForHumans

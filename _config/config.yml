@@ -1,0 +1,10 @@
+---
+Name: goldfinch-date
+---
+SilverStripe\ORM\FieldType\DBDate:
+  extensions:
+    - Goldfinch\Date\Extensions\DBCarbon
+
+SilverStripe\ORM\FieldType\DBDatetime:
+  extensions:
+    - Goldfinch\Date\Extensions\DBCarbon
