@@ -3,8 +3,12 @@ Name: goldfinch-date
 ---
 SilverStripe\ORM\FieldType\DBDate:
   extensions:
-    - Goldfinch\Date\Extensions\DBCarbon
+    - Goldfinch\Date\Extensions\DBCarbonExtension
 
 SilverStripe\ORM\FieldType\DBDatetime:
   extensions:
-    - Goldfinch\Date\Extensions\DBCarbon
+    - Goldfinch\Date\Extensions\DBCarbonExtension
+
+SilverStripe\ORM\FieldType\DBTime:
+  extensions:
+    - Goldfinch\Date\Extensions\DBCarbonExtension

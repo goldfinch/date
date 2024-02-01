@@ -5,7 +5,7 @@ namespace Goldfinch\Date\Extensions;
 use Carbon\Carbon;
 use SilverStripe\ORM\DataExtension;
 
-class DBCarbon extends DataExtension
+class DBCarbonExtension extends DataExtension
 {
     private ?Carbon $carbon;
 
